@@ -2,9 +2,6 @@
 
 ## Setup
 ### Add files to secret
-- service_account_dev.json  
-Download from Firebase console.
-
 - twitterConfig.js  
 Ger info from Twitter developer page
 ```

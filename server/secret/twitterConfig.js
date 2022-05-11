@@ -1,7 +1,7 @@
 const twitterConfig = {
-    consumerKey: 'TvU49XlVKrurELzziDSlIqrVb',
-    consumerSecret: 'I2v6msA9bJYbE0TEQ45jY0ytWuyDYUss5RYHmb3lq9obUip05y',
-    accessTokenKey: '57559559-NFPCZq98uRZQJVhfNOp35GPLchJRT858IS1cGKOdw',
-    accessTokenSecret: 'PWKkmQ9VslY85ssGjs4b5JdUTLXXbqbMqtXpr1KNGWmnw'
-};
-module.exports = twitterConfig;
+  consumerKey: '7iHF64wLPnTmiNo7FrMCbisxL',
+  consumerSecret: 'bdjubpXDU738dDBbMNuZbfXVP66QFN0kAmFpBYCDcCHUce1FYI',
+  accessTokenKey: '1083647971101618176-UZkRblZTfPoLwxoY5AvAWUbwmsaRMZ',
+  accessTokenSecret: 'b0O7NHWSSkl9iT28mP4GtHwM2FVCLDEQ8LRq6jE1ZBSmh',
+}
+module.exports = twitterConfig
