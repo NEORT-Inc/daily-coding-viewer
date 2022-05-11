@@ -1,0 +1,14 @@
+{
+    "name": "madd-app",
+    "version": "0.0.1",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "firebase-admin": "^8.9.2",
+        "twitter": "^1.7.1"
+    },
+    "devDependencies": {}
+}
