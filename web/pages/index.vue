@@ -14,7 +14,7 @@ import TweetView from '~/components/TweetView.vue'
 })
 export default class TopPage extends Vue {
   private slideShowTimer: any = null
-  private slideShowDuration: number = 1 * 10 * 1000
+  private slideShowDuration: number = 15 * 1000
   private currentIndex: number = 0
 
   async fetch({ store }) {
