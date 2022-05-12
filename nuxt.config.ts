@@ -9,7 +9,7 @@ export default {
   mode: 'universal',
   srcDir: 'web/',
   head: {
-    title: 'tiny-sketches-viewer',
+    title: 'daily-coding-viewer',
     htmlAttrs: {
       lang: 'en',
     },
