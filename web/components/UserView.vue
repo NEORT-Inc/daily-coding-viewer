@@ -31,8 +31,8 @@ export default class UserView extends Vue {
   justify-content center
 
   .imageView
-    width 70px
-    height 70px
+    width 80px
+    height 80px
     border-radius 50%
     border 1px #efefef solid
 
@@ -40,9 +40,9 @@ export default class UserView extends Vue {
     margin-left 16px
 
     .name
-      font-size 2.8rem
+      font-size 4.8rem
       font-weight bold
 
     .screenName
-      font-size 1.8rem
+      font-size 3.6rem
 </style>

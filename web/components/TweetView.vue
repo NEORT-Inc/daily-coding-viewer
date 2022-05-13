@@ -51,7 +51,7 @@ export default class TweetView extends Vue {
     align-items center
 
     .hashTag
-      font-size 2.8rem
+      font-size 4.8rem
       font-weight bold
       text-align center
 
