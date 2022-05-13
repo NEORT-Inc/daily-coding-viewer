@@ -27,6 +27,13 @@ export default class TopPage extends Vue {
 
   mounted() {
     this.setSlideShowTimer()
+    setInterval(async () => {
+      try {
+        await this.$store.dispatch('tweets/fetchTweet')
+      } catch (e) {
+        console.log(e)
+      }
+    }, 10 * 60 * 1000)
   }
 
   private setSlideShowTimer() {
