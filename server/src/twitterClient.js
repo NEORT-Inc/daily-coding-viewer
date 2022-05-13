@@ -28,12 +28,11 @@ const TwitterClient = {
         }
         for (let i = tweets.statuses.length - 1; i >= 0; i--) {
           const event = tweets.statuses[i]
+          response.lastId = event.id
 
           if (event.id === lastId || /^RT /g.test(event.full_text)) {
             continue
           }
-
-          response.lastId = event.id
 
           let media = event.entities.media
           if (media === undefined) {
