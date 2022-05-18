@@ -11,7 +11,7 @@ const TwitterClient = {
     })
     const hashTag = '#dailycoding'
     return new Promise((resolve, reject) => {
-      const params = { q: hashTag, tweet_mode: 'extended', count: 200 }
+      const params = { q: hashTag, tweet_mode: 'extended', count: 100 }
       if (lastId) {
         params.since_id = lastId
       }
