@@ -41,6 +41,7 @@ export default class TweetView extends Vue {
     centerAbsContent()
 
   .infoContainer
+    width 100%
     position fixed
     bottom 48px
     background-color white
@@ -48,15 +49,16 @@ export default class TweetView extends Vue {
     left 50%
     transform translate(-50%, -50%)
     display flex
+    justify-content center
     align-items center
 
     .hashTag
-      font-size 9.6rem
+      font-size 8.0rem
       font-weight bold
       text-align center
 
     .x
       font-size 6.2rem
-      margin-left 16px
-      margin-right 16px
+      margin-left 32px
+      margin-right 32px
 </style>
