@@ -40,9 +40,9 @@ export default class UserView extends Vue {
     margin-left 16px
 
     .name
-      font-size 4.8rem
+      font-size 9.6rem
       font-weight bold
 
     .screenName
-      font-size 3.6rem
+      font-size 7.2rem
 </style>
