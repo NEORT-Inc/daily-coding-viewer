@@ -28,7 +28,9 @@ export const actions = {
     const result = await getTweets((this as any).$axios, state.lastId)
     commit('addItems', result.tweets)
     commit('setHashTag', result.hashTag)
-    commit('setLastId', result.lastId)
+    if (result.lastId > 0) {
+      commit('setLastId', result.lastId)
+    }
   },
   clear({ commit }) {
     commit('setItems', [])
