@@ -36,7 +36,11 @@ const TwitterClient = {
           const event = tweets.statuses[i]
           response.lastId = event.id
 
-          if (event.id === lastId || /^RT /g.test(event.full_text)) {
+          if (
+            event.id === lastId ||
+            /^RT /g.test(event.full_text) ||
+            event.user.name === 'NEORT'
+          ) {
             continue
           }
 
